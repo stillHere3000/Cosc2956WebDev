@@ -1,0 +1,153 @@
+
+* {
+   box-sizing: border-box;
+}
+body, section, header, div, p, h1, h2, h3, ul, li {
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
+   background-color: #e4e7eb;
+   font-weight: 300;
+   padding-left: 50px;
+   /*margin-left: 40px;
+   margin-right: 40px;*/
+   padding-right: 50px;
+   padding-top: 50px;
+}
+section{
+   width: 910px;
+}
+header {
+   margin-left: 20px;
+}
+
+h1 { 
+   text-align: center;
+   font-weight: 600;
+   font-size: 42px;
+   padding: 10px 0;
+}
+
+.column{
+   display: inline-block;
+   width: 300px;
+   background-color: white;
+   text-align: center;
+   
+}
+
+.column.featured{
+   display: inline-block;
+   width: 300px;
+   background-color: #2F4F4F;
+   text-align: center;
+   color: white;
+   
+}
+
+ div p.price.free, div p.price.professional, div p.price.standard{
+   font-weight: 800;
+   font-size: 36px;
+
+}
+
+span{
+   font-weight: 400;
+   font-size: 18px;
+}
+
+.price.free{
+   background-color: #5BB189;
+}
+
+.price.standard{
+   background-color: #4B0082;
+}
+
+.price.professional{
+   background-color: #EC632A;
+}
+
+.column p{
+   font-weight: 600;
+   font-size: 24px;
+}
+
+.column ul li, .column.featured ul li{
+   font-weight: 400;
+   font-size: 18px;
+   list-style-type: none;
+   height: 50px;
+   
+   
+}
+
+.column div a, .column.featured div a{
+   text-decoration: none;   
+}
+
+.column.featured ul li{
+   
+   color: white;
+}
+
+.column.featured ul, .column.featured ul  {
+   align-content: center;
+   vertical-align: middle;
+   text-align: center;
+}
+
+.column li:nth-child(odd){
+   background-color:rgba(47,59,64,0.35);
+   color: black;
+}
+
+.column div  {
+   background-color: #3A6BA5;
+}
+
+a{
+   
+   color: white;
+}
+.column div:hover {
+   background-color: #437CBF;
+   
+}
+
+#confidence{
+   width: 910px;
+   color: white;
+   background-color: #2F4F4F;
+   padding-top: 25px;
+   margin-top: 25px;
+   padding-bottom: 25px;
+   padding-left: 25px;
+
+}
+
+#confidence p{
+   font-size: 18px;
+}
+
+#confidence ul li{
+   font-size: 16px;
+   list-style-type: none;
+   background-image:url("checkmark.svg");
+   background-repeat: no-repeat;
+   background-size: 24px;
+   padding-left: 25px;
+}
+
+#confidence ul li a{
+   
+   color:lightblue;
+   text-decoration: none;
+}
+
+
+/* add styles here */
+
